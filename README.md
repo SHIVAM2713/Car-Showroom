@@ -146,7 +146,7 @@ Diploma Student — Computer Engineering
 DKTE Society's Yashwantrao Chavan Polytechnic, Ichalkaranji
 
 - 💼 LinkedIn: (https://www.linkedin.com/in/shivam-jadhav-987911299?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-- 🐙 GitHub: (https://github.com/@SHIVAM2713)
+- 🐙 GitHub: (https://github.com/SHIVAM2713)
 - 📧 Email: shivamdeepakjadhav@gmail.com
 
 ---
