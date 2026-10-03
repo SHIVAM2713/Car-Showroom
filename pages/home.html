@@ -1,0 +1,3088 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ 
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="Premium Motors — Luxury Automotive Digital Experience"
+>
+
+<meta
+    name="theme-color"
+    content="#050505"
+>
+
+<title>Premium Motors | Luxury Automotive Experience</title>
+
+
+<!-- =====================================================
+     GOOGLE FONTS
+     ===================================================== -->
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+>
+
+
+<!-- =====================================================
+     BOOTSTRAP
+     ===================================================== -->
+
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+>
+
+
+<!-- =====================================================
+     BOOTSTRAP ICONS
+     ===================================================== -->
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+>
+
+
+<!-- =====================================================
+     MAIN CSS
+     ===================================================== -->
+
+<link
+    rel="stylesheet"
+    href="../css/style.css"
+>
+ 
+
+</head>
+
+<body class="showroom-page">
+
+ 
+<!-- =====================================================
+     PAGE LOADER
+     ===================================================== -->
+
+<div
+    class="showroom-loader"
+    id="showroomLoader"
+>
+
+    <div class="loader-content">
+
+        <div class="loader-brand">
+            PREMIUM MOTORS
+        </div>
+
+        <div class="loader-line">
+
+            <span></span>
+
+        </div>
+
+        <p>
+            ENTERING EXPERIENCE
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<header
+    class="showroom-header"
+    id="showroomHeader"
+>
+
+    <nav class="premium-navbar">
+
+
+        <!-- MOBILE MENU BUTTON -->
+
+        <button
+            class="mobile-menu-button"
+            id="mobileMenuButton"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <!-- LEFT NAVIGATION -->
+
+        <div
+            class="navbar-side navbar-left"
+            id="desktopNavigation"
+        >
+
+            <a
+                href="#cars"
+                class="nav-link"
+            >
+                CARS
+            </a>
+
+            <a
+                href="#brands"
+                class="nav-link"
+            >
+                BRANDS
+            </a>
+
+            <a
+                href="#experience"
+                class="nav-link"
+            >
+                EXPERIENCE
+            </a>
+
+            <a
+                href="showroom.html"
+                class="nav-link"
+            >
+                SHOWROOM
+            </a>
+
+        </div>
+
+
+        <!-- CENTER BRAND -->
+
+        <a
+            href="#top"
+            class="premium-logo"
+            aria-label="Premium Motors Home"
+        >
+
+            <span class="logo-main">
+                PREMIUM
+            </span>
+
+            <span class="logo-sub">
+                MOTORS
+            </span>
+
+        </a>
+
+
+        <!-- RIGHT NAVIGATION -->
+
+        <div class="navbar-side navbar-right">
+
+
+            <!-- SEARCH -->
+
+            <button
+                class="navbar-icon-button"
+                id="searchButton"
+                type="button"
+                aria-label="Search cars"
+            >
+
+                <i class="bi bi-search"></i>
+
+            </button>
+
+
+            <!-- AI -->
+
+            <button
+                class="navbar-icon-button ai-nav-button"
+                id="aiNavButton"
+                type="button"
+                aria-label="Premium AI"
+            >
+
+                <i class="bi bi-stars"></i>
+
+            </button>
+
+
+            <!-- PROFILE -->
+
+            <button
+                class="navbar-icon-button"
+                id="profileButton"
+                type="button"
+                aria-label="Profile"
+            >
+
+                <i class="bi bi-person"></i>
+
+            </button>
+
+
+            <!-- DESKTOP LOGOUT -->
+
+            <button
+                class="navbar-logout"
+                id="logoutButton"
+                type="button"
+            >
+
+                SIGN OUT
+
+            </button>
+
+        </div>
+
+
+    </nav>
+
+
+    <!-- =================================================
+         MOBILE MENU
+         ================================================= -->
+
+    <div
+        class="mobile-navigation"
+        id="mobileNavigation"
+    >
+
+        <div class="mobile-navigation-inner">
+
+
+            <div class="mobile-nav-header">
+
+                <span>
+                    NAVIGATION
+                </span>
+
+                <button
+                    type="button"
+                    id="mobileMenuClose"
+                    aria-label="Close navigation"
+                >
+
+                    <i class="bi bi-x-lg"></i>
+
+                </button>
+
+            </div>
+
+
+            <div class="mobile-nav-links">
+
+                <a href="#cars">
+                    CARS
+                </a>
+
+                <a href="#brands">
+                    BRANDS
+                </a>
+
+                <a href="#experience">
+                    EXPERIENCE
+                </a>
+
+                <a href="#gallery">
+                    GALLERY
+                </a>
+
+                <a href="showroom.html">
+    SHOWROOM
+</a>
+
+            </div>
+
+
+            <div class="mobile-nav-divider"></div>
+
+
+            <div class="mobile-nav-actions">
+
+                <button
+                    type="button"
+                    id="mobileSearchButton"
+                >
+
+                    <i class="bi bi-search"></i>
+
+                    SEARCH
+
+                </button>
+
+
+                <button
+                    type="button"
+                    id="mobileAiButton"
+                >
+
+                    <i class="bi bi-stars"></i>
+
+                    PREMIUM AI
+
+                </button>
+
+
+                <button
+                    type="button"
+                    id="mobileProfileButton"
+                >
+
+                    <i class="bi bi-person"></i>
+
+                    PROFILE
+
+                </button>
+
+
+                <button
+                    type="button"
+                    id="mobileLogoutButton"
+                >
+
+                    <i class="bi bi-box-arrow-right"></i>
+
+                    SIGN OUT
+
+                </button>
+
+            </div>
+
+
+            <!-- SOCIAL -->
+
+            <div class="mobile-social">
+
+                <span>
+                    FOLLOW PREMIUM MOTORS
+                </span>
+
+                <div class="mobile-social-links">
+
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                    >
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        <i class="bi bi-youtube"></i>
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
+
+<main id="top">
+
+
+    <!-- =================================================
+         HERO
+         ================================================= -->
+
+    <section
+        class="premium-hero"
+        id="hero"
+    >
+
+
+        <!-- BACKGROUND IMAGE -->
+
+        <div
+            class="hero-background"
+            aria-hidden="true"
+        >
+
+            <img
+                src="../assets/hero-car.png"
+                alt=""
+                fetchpriority="high"
+            >
+
+        </div>
+
+
+        <!-- DARK OVERLAY -->
+
+        <div
+            class="hero-overlay"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- CINEMATIC GRADIENT -->
+
+        <div
+            class="hero-cinematic-gradient"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- HERO CONTENT -->
+
+        <div class="container-fluid hero-container">
+
+            <div class="hero-content">
+
+
+                <p class="hero-eyebrow">
+
+                    THE ART OF AUTOMOTIVE EXCELLENCE
+
+                </p>
+
+
+                <h1 class="hero-title">
+
+                    <span>
+                        Where Performance
+                    </span>
+
+                    <span class="hero-title-highlight">
+                        Meets Luxury.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Discover a curated world of extraordinary
+                    automobiles engineered for those who
+                    expect nothing ordinary.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+    <!-- EXPLORE CARS -->
+
+    <a
+        href="#cars"
+        class="hero-button hero-button-primary"
+    >
+
+        <span>
+            EXPLORE CARS
+        </span>
+
+        <i class="bi bi-arrow-right"></i>
+
+    </a>
+
+
+    <!-- CONFIGURE YOUR CAR -->
+
+    <button
+        type="button"
+        id="openConfiguratorButton"
+        class="hero-button hero-button-secondary"
+    >
+
+        <span>
+            CONFIGURE YOUR CAR
+        </span>
+
+        <i class="bi bi-arrow-up-right"></i>
+
+    </button>
+
+</div>
+
+
+                <!-- HERO META -->
+
+                <div class="hero-meta">
+
+
+                    <div class="hero-meta-item">
+
+                        <span class="hero-meta-label">
+                            COLLECTION
+                        </span>
+
+                        <strong>
+                            06
+                        </strong>
+
+                    </div>
+
+
+                    <div class="hero-meta-separator"></div>
+
+
+                    <div class="hero-meta-item">
+
+                        <span class="hero-meta-label">
+                            EXPERIENCE
+                        </span>
+
+                        <strong>
+                            01
+                        </strong>
+
+                    </div>
+
+
+                    <div class="hero-meta-separator"></div>
+
+
+                    <div class="hero-meta-item">
+
+                        <span class="hero-meta-label">
+                            EST.
+                        </span>
+
+                        <strong>
+                            2026
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SCROLL INDICATOR -->
+
+        <a
+            href="#brands"
+            class="hero-scroll"
+            aria-label="Scroll to discover"
+        >
+
+            <span>
+                SCROLL TO DISCOVER
+            </span>
+
+            <span class="hero-scroll-line">
+
+                <span></span>
+
+            </span>
+
+        </a>
+
+
+        <!-- HERO NUMBER -->
+
+        <div
+            class="hero-index"
+            aria-hidden="true"
+        >
+
+            <span>
+                01
+            </span>
+
+            <span class="hero-index-line"></span>
+
+            <span>
+                05
+            </span>
+
+        </div>
+
+    </section>
+
+
+<!-- =================================================
+     BRAND COLLECTION
+     ================================================= -->
+
+<section
+    class="brand-grid"
+    id="brands"
+>
+
+    <!-- FERRARI -->
+    <article class="brand-card">
+
+    <span class="brand-number">
+        01
+    </span>
+
+    <div class="brand-logo">
+        <img src="../assets/images/logos/ferrari.png"
+             alt="Ferrari logo">
+    </div>
+
+    <h3>
+        FERRARI
+    </h3>
+
+    <p>
+        Italian performance
+        without compromise.
+    </p>
+
+    <a href="https://www.ferrari.com/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="brand-explore">
+
+        EXPLORE
+        <i class="bi bi-arrow-up-right"></i>
+
+    </a>
+
+</article>
+
+
+    <!-- LAMBORGHINI -->
+    <article class="brand-card">
+
+        <img
+            src="../assets/images/logos/lamborghini.png"
+            class="brand-logo"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <span class="brand-number">
+            02
+        </span>
+
+        <div class="brand-card-content">
+
+            <h3>
+                LAMBORGHINI
+            </h3>
+
+            <p>
+                Uncompromising design
+                and dramatic performance.
+            </p>
+
+            <a href="https://www.lamborghini.com/en-en"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="brand-explore">
+
+    EXPLORE
+    <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+        </div>
+
+    </article>
+
+
+    <!-- BMW -->
+    <article class="brand-card">
+
+        <img
+            src="../assets/images/logos/bmw.png"
+            class="brand-logo"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <span class="brand-number">
+            03
+        </span>
+
+        <div class="brand-card-content">
+
+            <h3>
+                BMW
+            </h3>
+
+            <p>
+                Precision engineering
+                built around the driver.
+            </p>
+
+            <a href="https://www.bmw.com/en/index.html"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="brand-explore">
+
+    EXPLORE
+    <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+        </div>
+
+    </article>
+
+
+    <!-- MERCEDES -->
+    <article class="brand-card">
+
+        <img
+            src="../assets/images/logos/mercedes.png"
+            class="brand-logo"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <span class="brand-number">
+            04
+        </span>
+
+        <div class="brand-card-content">
+
+            <h3>
+                MERCEDES-BENZ
+            </h3>
+
+            <p>
+                Modern luxury with
+                effortless presence.
+            </p>
+
+            <a href="https://www.mercedes-benz.com/en/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="brand-explore">
+
+    EXPLORE
+    <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+        </div>
+
+    </article>
+
+
+    <!-- AUDI -->
+    <article class="brand-card">
+
+        <img
+            src="../assets/images/logos/audi.png"
+            class="brand-logo"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <span class="brand-number">
+            05
+        </span>
+
+        <div class="brand-card-content">
+
+            <h3>
+                AUDI
+            </h3>
+
+            <p>
+                Progressive technology
+                and minimalist design.
+            </p>
+
+            <a href="https://www.audi.com/en"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="brand-explore">
+
+    EXPLORE
+    <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+        </div>
+
+    </article>
+
+
+    <!-- PORSCHE -->
+    <article class="brand-card">
+
+        <img
+            src="../assets/images/logos/porsche.png"
+            class="brand-logo"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <span class="brand-number">
+            06
+        </span>
+
+        <div class="brand-card-content">
+
+            <h3>
+                PORSCHE
+            </h3>
+
+            <p>
+                Motorsport heritage
+                refined for the road.
+            </p>
+
+            <a href="https://www.porsche.com/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="brand-explore">
+
+    EXPLORE
+    <i class="bi bi-arrow-up-right"></i>
+
+</a>
+
+        </div>
+
+    </article>
+
+</section>
+<!-- =================================================
+     PREMIUM CAR COLLECTION
+     ================================================= -->
+
+<section
+    class="car-collection"
+    id="cars"
+>
+
+    <div class="container">
+
+        <!-- COLLECTION HEADER -->
+
+        <div class="car-section-header">
+
+            <div>
+
+                <span class="car-eyebrow">
+                    THE COLLECTION
+                </span>
+
+                <h2>
+                    Choose Your
+                    <span>Machine.</span>
+                </h2>
+
+            </div>
+
+            <p>
+
+                Explore a curated collection of performance,
+                luxury and electric automobiles engineered
+                to create extraordinary experiences.
+
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             SEARCH
+             ================================================= -->
+
+        <div class="car-search-wrapper">
+
+            <div class="car-search-box">
+
+                <span class="car-search-icon">
+                    ⌕
+                </span>
+
+                <input
+                    type="search"
+                    id="carSearch"
+                    placeholder="Search Ferrari, BMW M4, Porsche 911..."
+                    autocomplete="off"
+                >
+
+                <button
+                    type="button"
+                    id="clearSearch"
+                    class="clear-search-btn"
+                    aria-label="Clear search"
+                >
+
+                    ×
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FILTER PANEL
+             ================================================= -->
+
+        <div class="car-filter-panel">
+
+
+            <!-- BRAND -->
+
+            <div class="car-filter">
+
+                <label for="brandFilter">
+                    BRAND
+                </label>
+
+                <select id="brandFilter">
+
+                    <option value="all">
+                        All Brands
+                    </option>
+
+                    <option value="Ferrari">
+                        Ferrari
+                    </option>
+
+                    <option value="Lamborghini">
+                        Lamborghini
+                    </option>
+
+                    <option value="BMW">
+                        BMW
+                    </option>
+
+                    <option value="Mercedes-Benz">
+                        Mercedes-Benz
+                    </option>
+
+                    <option value="Audi">
+                        Audi
+                    </option>
+
+                    <option value="Porsche">
+                        Porsche
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- CATEGORY -->
+
+            <div class="car-filter">
+
+                <label for="categoryFilter">
+                    CATEGORY
+                </label>
+
+                <select id="categoryFilter">
+
+                    <option value="all">
+                        All Categories
+                    </option>
+
+                    <option value="supercar">
+                        Supercars
+                    </option>
+
+                    <option value="sports">
+                        Sports
+                    </option>
+
+                    <option value="luxury">
+                        Luxury
+                    </option>
+
+                    <option value="suv">
+                        SUV
+                    </option>
+
+                    <option value="electric">
+                        Electric
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- POWERTRAIN -->
+
+            <div class="car-filter">
+
+                <label for="fuelFilter">
+                    POWERTRAIN
+                </label>
+
+                <select id="fuelFilter">
+
+                    <option value="all">
+                        All
+                    </option>
+
+                    <option value="petrol">
+                        Petrol
+                    </option>
+
+                    <option value="hybrid">
+                        Hybrid
+                    </option>
+
+                    <option value="electric">
+                        Electric
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- TRANSMISSION -->
+
+            <div class="car-filter">
+
+                <label for="transmissionFilter">
+                    TRANSMISSION
+                </label>
+
+                <select id="transmissionFilter">
+
+                    <option value="all">
+                        All
+                    </option>
+
+                    <option value="automatic">
+                        Automatic
+                    </option>
+
+                    <option value="dct">
+                        DCT
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- DRIVE -->
+
+            <div class="car-filter">
+
+                <label for="driveFilter">
+                    DRIVE
+                </label>
+
+                <select id="driveFilter">
+
+                    <option value="all">
+                        All
+                    </option>
+
+                    <option value="rwd">
+                        RWD
+                    </option>
+
+                    <option value="awd">
+                        AWD
+                    </option>
+
+                    <option value="4wd">
+                        4WD
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- RESET -->
+
+            <button
+                type="button"
+                id="clearFilters"
+                class="clear-filters-btn"
+            >
+
+                RESET FILTERS
+
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             QUICK CATEGORY FILTER
+             ================================================= -->
+
+        <div class="car-category-nav">
+
+            <button
+                class="car-category-btn active"
+                data-category="all"
+                type="button"
+            >
+
+                ALL
+
+            </button>
+
+
+            <button
+                class="car-category-btn"
+                data-category="supercar"
+                type="button"
+            >
+
+                SUPERCARS
+
+            </button>
+
+
+            <button
+                class="car-category-btn"
+                data-category="sports"
+                type="button"
+            >
+
+                SPORTS
+
+            </button>
+
+
+            <button
+                class="car-category-btn"
+                data-category="luxury"
+                type="button"
+            >
+
+                LUXURY
+
+            </button>
+
+
+            <button
+                class="car-category-btn"
+                data-category="suv"
+                type="button"
+            >
+
+                SUV
+
+            </button>
+
+
+            <button
+                class="car-category-btn"
+                data-category="electric"
+                type="button"
+            >
+
+                ELECTRIC
+
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             DYNAMIC CAR GRID
+             ================================================= -->
+
+        <div
+            class="car-grid"
+            id="carGrid"
+        >
+
+            <!-- JavaScript generates cars here -->
+
+        </div>
+
+
+        <!-- =================================================
+             COLLECTION FOOTER
+             ================================================= -->
+
+        <div class="collection-bottom">
+
+            <span>
+                DISCOVER THE COLLECTION
+            </span>
+
+            <div class="collection-line"></div>
+
+            <span id="carCount">
+                06 VEHICLES
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =================================================
+         EXPERIENCE PLACEHOLDER
+         ================================================= -->
+
+    <!-- =================================================
+     PREMIUM EXPERIENCE
+================================================= -->
+
+<section
+    class="premium-experience-section"
+    id="experience"
+>
+
+    <div class="container">
+
+        <div class="experience-grid">
+
+            <!-- LEFT CONTENT -->
+
+            <div class="experience-content">
+
+                <p class="section-eyebrow">
+                    THE PREMIUM EXPERIENCE
+                </p>
+
+                <h2 class="section-title">
+                    Built Around
+                    <span>You.</span>
+                </h2>
+
+                <p class="section-description">
+
+                    Discover a smarter way to explore
+                    extraordinary automobiles. Compare
+                    performance, configure your vehicle,
+                    save your favorites and get intelligent
+                    recommendations from Premium AI.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <div class="experience-features">
+
+                    <div class="experience-feature">
+
+                        <span class="experience-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                PERSONALIZED
+                                DISCOVERY
+                            </h3>
+
+                            <p>
+                                Find vehicles based on
+                                your performance,
+                                design and driving
+                                preferences.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="experience-feature">
+
+                        <span class="experience-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                SMART COMPARISON
+                            </h3>
+
+                            <p>
+                                Compare two vehicles
+                                side by side using
+                                real specifications.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="experience-feature">
+
+                        <span class="experience-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                PREMIUM AI
+                            </h3>
+
+                            <p>
+                                Ask questions about
+                                vehicles and receive
+                                instant automotive
+                                recommendations.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACTION -->
+
+                <a
+                    href="#cars"
+                    class="experience-action"
+                >
+
+                    EXPLORE THE COLLECTION
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT IMAGE -->
+
+            <div class="experience-visual">
+
+                <div class="experience-image-frame">
+
+                    <img
+                        src="../assets/images/showroom-car.jpg"
+                        alt="Premium performance automobile"
+                    >
+
+                    <div class="experience-image-overlay"></div>
+
+                    <div class="experience-image-label">
+
+                        <span>
+                            PREMIUM MOTORS
+                        </span>
+
+                        <strong>
+                            PERFORMANCE
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+
+<!-- =====================================================
+     NOTIFICATION
+     ===================================================== -->
+
+<div
+    class="premium-notification"
+    id="premiumNotification"
+    role="status"
+    aria-live="polite"
+>
+
+    <i class="bi bi-check-circle"></i>
+
+    <span id="notificationText"></span>
+
+</div>
+
+<!-- =================================================
+     PREMIUM CAR DETAILS MODAL
+================================================= -->
+
+<div
+    class="car-details-modal"
+    id="carDetailsModal"
+    aria-hidden="true"
+>
+
+    <div class="car-details-backdrop"></div>
+
+    <div class="car-details-panel">
+
+        <!-- CLOSE -->
+
+        <button
+            type="button"
+            class="car-details-close"
+            id="carDetailsClose"
+            aria-label="Close car details"
+        >
+            ×
+        </button>
+
+
+        <!-- IMAGE -->
+
+        <div class="car-details-image-wrapper">
+
+            <img
+                id="detailsCarImage"
+                src=""
+                alt=""
+            >
+
+            <div class="car-details-image-overlay"></div>
+
+            <div class="car-details-brand" id="detailsCarBrand">
+                FERRARI
+            </div>
+
+        </div>
+
+
+        <!-- CONTENT -->
+
+        <div class="car-details-content">
+
+            <div class="car-details-heading">
+
+                <span
+                    class="car-details-category"
+                    id="detailsCarCategory"
+                >
+                    SUPERCAR
+                </span>
+
+                <h2 id="detailsCarModel">
+                    296 GTB
+                </h2>
+
+                <p id="detailsCarDescription">
+                    A masterpiece of performance,
+                    technology and automotive design.
+                </p>
+
+            </div>
+
+
+            <!-- PRICE -->
+
+            <div class="car-details-price-block">
+
+                <span>
+                    STARTING FROM
+                </span>
+
+                <strong id="detailsCarPrice">
+                    ₹5.40 Cr
+                </strong>
+
+            </div>
+
+
+            <!-- SPECIFICATIONS -->
+
+            <div class="car-details-specs">
+
+                <div class="detail-spec">
+
+                    <span>
+                        HORSEPOWER
+                    </span>
+
+                    <strong id="detailsCarHorsepower">
+                        819 HP
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-spec">
+
+                    <span>
+                        0–100 KM/H
+                    </span>
+
+                    <strong id="detailsCarAcceleration">
+                        2.9 SEC
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-spec">
+
+                    <span>
+                        TOP SPEED
+                    </span>
+
+                    <strong id="detailsCarTopSpeed">
+                        330 KM/H
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-spec">
+
+                    <span>
+                        POWERTRAIN
+                    </span>
+
+                    <strong id="detailsCarFuel">
+                        HYBRID
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-spec">
+
+                    <span>
+                        TRANSMISSION
+                    </span>
+
+                    <strong id="detailsCarTransmission">
+                        DCT
+                    </strong>
+
+                </div>
+
+
+                <div class="detail-spec">
+
+                    <span>
+                        DRIVE
+                    </span>
+
+                    <strong id="detailsCarDrive">
+                        RWD
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACTIONS -->
+
+            <div class="car-details-actions">
+
+                <button
+                    type="button"
+                    class="details-primary-btn"
+                    id="detailsCompareBtn"
+                >
+                    COMPARE
+                </button>
+
+                <button
+                    type="button"
+                    class="details-secondary-btn"
+                    id="detailsFavoriteBtn"
+                >
+                    ♡ ADD TO FAVORITES
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =================================================
+     PREMIUM CAR COMPARISON MODAL
+================================================= -->
+
+<div
+    class="comparison-modal"
+    id="comparisonModal"
+    aria-hidden="true"
+>
+
+    <div class="comparison-backdrop"></div>
+
+    <div class="comparison-panel">
+
+        <!-- HEADER -->
+
+        <div class="comparison-header">
+
+            <div>
+
+                <span class="comparison-eyebrow">
+                    PREMIUM AUTOMOTIVE ANALYSIS
+                </span>
+
+                <h2>
+                    Compare Performance
+                </h2>
+
+                <p>
+                    Compare your selected vehicles
+                    side by side.
+                </p>
+
+            </div>
+
+            <button
+                type="button"
+                class="comparison-close"
+                id="comparisonClose"
+                aria-label="Close comparison"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- SELECTED CARS -->
+
+        <div
+            class="comparison-cars"
+            id="comparisonCars"
+        ></div>
+
+
+        <!-- COMPARISON TABLE -->
+
+        <div class="comparison-table-wrapper">
+
+            <table class="comparison-table">
+
+                <tbody>
+
+                    <tr>
+                        <th>PRICE</th>
+                        <td id="comparePrice1">—</td>
+                        <td id="comparePrice2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>HORSEPOWER</th>
+                        <td id="compareHorsepower1">—</td>
+                        <td id="compareHorsepower2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>TORQUE</th>
+                        <td id="compareTorque1">—</td>
+                        <td id="compareTorque2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>0–100 KM/H</th>
+                        <td id="compareAcceleration1">—</td>
+                        <td id="compareAcceleration2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>TOP SPEED</th>
+                        <td id="compareTopSpeed1">—</td>
+                        <td id="compareTopSpeed2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>POWERTRAIN</th>
+                        <td id="compareFuel1">—</td>
+                        <td id="compareFuel2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>TRANSMISSION</th>
+                        <td id="compareTransmission1">—</td>
+                        <td id="compareTransmission2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>DRIVE TYPE</th>
+                        <td id="compareDrive1">—</td>
+                        <td id="compareDrive2">—</td>
+                    </tr>
+
+                    <tr>
+                        <th>CATEGORY</th>
+                        <td id="compareCategory1">—</td>
+                        <td id="compareCategory2">—</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <div class="comparison-footer">
+
+            <button
+                type="button"
+                class="comparison-clear-btn"
+                id="comparisonClear"
+            >
+                CLEAR COMPARISON
+            </button>
+
+            <span>
+                Select two vehicles for a detailed comparison.
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =========================================================
+     PREMIUM CAR COMPARISON MODAL
+========================================================= -->
+
+<div
+    class="comparison-modal"
+    id="comparisonModal"
+    aria-hidden="true"
+>
+
+ 
+<!-- BACKDROP -->
+
+<div
+    class="comparison-backdrop"
+    id="comparisonBackdrop"
+></div>
+
+
+<!-- MODAL PANEL -->
+
+<div
+    class="comparison-panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="comparisonTitle"
+>
+
+    <!-- HEADER -->
+
+    <div class="comparison-header">
+
+        <div>
+
+            <span class="comparison-eyebrow">
+                PREMIUM AUTOMOTIVE ANALYSIS
+            </span>
+
+            <h2 id="comparisonTitle">
+                Compare Your Machines
+            </h2>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="comparison-close"
+            id="comparisonClose"
+            aria-label="Close comparison"
+        >
+
+            <i class="bi bi-x-lg"></i>
+
+        </button>
+
+    </div>
+
+
+    <!-- SELECTED CARS -->
+
+    <div
+        class="comparison-cars"
+        id="comparisonCars"
+    ></div>
+
+
+    <!-- SPECIFICATION TABLE -->
+
+    <div class="comparison-table-wrapper">
+
+        <table class="comparison-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        SPECIFICATION
+                    </th>
+
+                    <th>
+                        VEHICLE 01
+                    </th>
+
+                    <th>
+                        VEHICLE 02
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>
+                        PRICE
+                    </td>
+
+                    <td id="comparePrice1">
+                        —
+                    </td>
+
+                    <td id="comparePrice2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        HORSEPOWER
+                    </td>
+
+                    <td id="compareHorsepower1">
+                        —
+                    </td>
+
+                    <td id="compareHorsepower2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        TORQUE
+                    </td>
+
+                    <td id="compareTorque1">
+                        —
+                    </td>
+
+                    <td id="compareTorque2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        0–100 KM/H
+                    </td>
+
+                    <td id="compareAcceleration1">
+                        —
+                    </td>
+
+                    <td id="compareAcceleration2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        TOP SPEED
+                    </td>
+
+                    <td id="compareTopSpeed1">
+                        —
+                    </td>
+
+                    <td id="compareTopSpeed2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        POWERTRAIN
+                    </td>
+
+                    <td id="compareFuel1">
+                        —
+                    </td>
+
+                    <td id="compareFuel2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        TRANSMISSION
+                    </td>
+
+                    <td id="compareTransmission1">
+                        —
+                    </td>
+
+                    <td id="compareTransmission2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        DRIVE TYPE
+                    </td>
+
+                    <td id="compareDrive1">
+                        —
+                    </td>
+
+                    <td id="compareDrive2">
+                        —
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        CATEGORY
+                    </td>
+
+                    <td id="compareCategory1">
+                        —
+                    </td>
+
+                    <td id="compareCategory2">
+                        —
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="comparison-footer">
+
+        <p>
+            Compare performance, engineering
+            and driving characteristics side by side.
+        </p>
+
+        <button
+            type="button"
+            class="comparison-clear"
+            id="comparisonClear"
+        >
+
+            CLEAR COMPARISON
+
+        </button>
+
+    </div>
+
+</div>
+ 
+
+</div>
+
+<!-- =========================================================
+     PREMIUM CAR CONFIGURATOR
+========================================================= -->
+
+<section
+    class="configurator-modal"
+    id="configuratorModal"
+    aria-hidden="true"
+>
+
+    <!-- BACKDROP -->
+    <div
+        class="configurator-backdrop"
+        id="configuratorBackdrop"
+    ></div>
+
+
+    <!-- CONFIGURATOR PANEL -->
+    <div class="configurator-panel">
+
+
+        <!-- HEADER -->
+        <div class="configurator-header">
+
+            <div>
+
+                <span class="configurator-eyebrow">
+                    PREMIUM VEHICLE CONFIGURATION
+                </span>
+
+                <h2>
+                    Configure Your Car
+                </h2>
+
+                <p>
+                    Create a specification that reflects your style.
+                </p>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="configurator-close"
+                id="configuratorClose"
+                aria-label="Close configurator"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- MAIN CONFIGURATOR -->
+        <div class="configurator-layout">
+
+
+            <!-- LEFT: VEHICLE PREVIEW -->
+            <div class="configurator-preview">
+
+                <div class="configurator-preview-label">
+                    YOUR CONFIGURATION
+                </div>
+
+
+                <div class="configurator-car-stage">
+
+                    <img
+                        id="configuratorCarImage"
+                        src="../assets/images/ferrari-296-gtb.jpg"
+                        alt="Ferrari 296 GTB"
+                    >
+
+                </div>
+
+
+                <div class="configurator-car-information">
+
+                    <span
+                        id="configuratorBrand"
+                        class="configurator-brand"
+                    >
+                        FERRARI
+                    </span>
+
+                    <h3 id="configuratorModel">
+                        296 GTB
+                    </h3>
+
+                    <span
+                        id="configuratorVariantLabel"
+                        class="configurator-variant-label"
+                    >
+                        STANDARD
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT: OPTIONS -->
+            <div class="configurator-options">
+
+
+                <!-- MODEL -->
+                <div class="configurator-group">
+
+                    <label for="configuratorModelSelect">
+                        MODEL
+                    </label>
+
+                    <select
+                        id="configuratorModelSelect"
+                        class="configurator-select"
+                    >
+
+                        <option value="ferrari">
+                            Ferrari 296 GTB
+                        </option>
+
+                        <option value="lamborghini">
+                            Lamborghini Revuelto
+                        </option>
+
+                        <option value="bmw">
+                            BMW M4 Competition
+                        </option>
+
+                        <option value="mercedes">
+                            Mercedes-AMG GT
+                        </option>
+
+                        <option value="audi">
+                            Audi RS e-tron GT
+                        </option>
+
+                        <option value="porsche">
+                            Porsche 911 Carrera
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- VARIANT -->
+                <div class="configurator-group">
+
+                    <label for="configuratorVariant">
+                        VARIANT
+                    </label>
+
+                    <select
+                        id="configuratorVariant"
+                        class="configurator-select"
+                    >
+
+                        <option value="standard">
+                            Standard
+                        </option>
+
+                        <option value="performance">
+                            Performance
+                        </option>
+
+                        <option value="signature">
+                            Signature
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- EXTERIOR COLOR -->
+                <div class="configurator-group">
+
+                    <label>
+                        EXTERIOR COLOR
+                    </label>
+
+                    <div class="configurator-choice-grid">
+
+
+                        <button
+                            type="button"
+                            class="configurator-color active"
+                            data-color="black"
+                            data-color-name="Obsidian Black"
+                            data-color-price="0"
+                        >
+                            <span
+                                class="color-swatch black"
+                            ></span>
+
+                            <span>
+                                Black
+                            </span>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="configurator-color"
+                            data-color="white"
+                            data-color-name="Arctic White"
+                            data-color-price="250000"
+                        >
+                            <span
+                                class="color-swatch white"
+                            ></span>
+
+                            <span>
+                                White
+                            </span>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="configurator-color"
+                            data-color="silver"
+                            data-color-name="Metallic Silver"
+                            data-color-price="350000"
+                        >
+                            <span
+                                class="color-swatch silver"
+                            ></span>
+
+                            <span>
+                                Silver
+                            </span>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="configurator-color"
+                            data-color="red"
+                            data-color-name="Rosso Red"
+                            data-color-price="500000"
+                        >
+                            <span
+                                class="color-swatch red"
+                            ></span>
+
+                            <span>
+                                Red
+                            </span>
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- WHEELS -->
+                <div class="configurator-group">
+
+                    <label for="configuratorWheels">
+                        WHEELS
+                    </label>
+
+                    <select
+                        id="configuratorWheels"
+                        class="configurator-select"
+                    >
+
+                        <option
+                            value="standard"
+                            data-price="0"
+                        >
+                            Standard Performance Wheels
+                        </option>
+
+                        <option
+                            value="sport"
+                            data-price="250000"
+                        >
+                            Sport Alloy Wheels +₹2.5 Lakh
+                        </option>
+
+                        <option
+                            value="carbon"
+                            data-price="500000"
+                        >
+                            Carbon Performance Wheels +₹5 Lakh
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- INTERIOR -->
+                <div class="configurator-group">
+
+                    <label for="configuratorInterior">
+                        INTERIOR
+                    </label>
+
+                    <select
+                        id="configuratorInterior"
+                        class="configurator-select"
+                    >
+
+                        <option
+                            value="black"
+                            data-price="0"
+                        >
+                            Black Leather
+                        </option>
+
+                        <option
+                            value="tan"
+                            data-price="200000"
+                        >
+                            Tan Leather +₹2 Lakh
+                        </option>
+
+                        <option
+                            value="red"
+                            data-price="300000"
+                        >
+                            Racing Red +₹3 Lakh
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- TRIM -->
+                <div class="configurator-group">
+
+                    <label for="configuratorTrim">
+                        TRIM
+                    </label>
+
+                    <select
+                        id="configuratorTrim"
+                        class="configurator-select"
+                    >
+
+                        <option
+                            value="aluminium"
+                            data-price="0"
+                        >
+                            Brushed Aluminium
+                        </option>
+
+                        <option
+                            value="carbon"
+                            data-price="350000"
+                        >
+                            Carbon Fibre +₹3.5 Lakh
+                        </option>
+
+                        <option
+                            value="premium"
+                            data-price="500000"
+                        >
+                            Premium Carbon +₹5 Lakh
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- OPTIONAL FEATURES -->
+                <div class="configurator-group">
+
+                    <label>
+                        OPTIONAL FEATURES
+                    </label>
+
+
+                    <label class="configurator-checkbox">
+
+                        <input
+                            type="checkbox"
+                            class="configurator-option"
+                            data-name="Premium Sound System"
+                            data-price="150000"
+                        >
+
+                        <span>
+                            Premium Sound System
+                        </span>
+
+                        <strong>
+                            +₹1.5 Lakh
+                        </strong>
+
+                    </label>
+
+
+                    <label class="configurator-checkbox">
+
+                        <input
+                            type="checkbox"
+                            class="configurator-option"
+                            data-name="Carbon Exterior Package"
+                            data-price="400000"
+                        >
+
+                        <span>
+                            Carbon Exterior Package
+                        </span>
+
+                        <strong>
+                            +₹4 Lakh
+                        </strong>
+
+                    </label>
+
+
+                    <label class="configurator-checkbox">
+
+                        <input
+                            type="checkbox"
+                            class="configurator-option"
+                            data-name="Advanced Driver Assistance"
+                            data-price="250000"
+                        >
+
+                        <span>
+                            Advanced Driver Assistance
+                        </span>
+
+                        <strong>
+                            +₹2.5 Lakh
+                        </strong>
+
+                    </label>
+
+                </div>
+
+
+                <!-- SUMMARY -->
+                <div class="configurator-summary">
+
+                    <div>
+
+                        <span>
+                            ESTIMATED TOTAL
+                        </span>
+
+                        <strong
+                            id="configuratorTotalPrice"
+                        >
+                            ₹5.40 Cr
+                        </strong>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        id="resetConfigurator"
+                        class="configurator-reset"
+                    >
+                        RESET
+                    </button>
+
+                </div>
+
+
+                <!-- ACTION -->
+                <button
+                    type="button"
+                    id="saveConfigurationButton"
+                    class="configurator-save"
+                >
+                    SAVE CONFIGURATION
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     PREMIUM AI AUTOMOTIVE ASSISTANT
+========================================================= -->
+
+<button
+    id="aiFloatingButton"
+    class="ai-floating-button"
+    type="button"
+    aria-label="Open Premium AI Assistant"
+>
+    <span class="ai-floating-icon">✦</span>
+    <span class="ai-floating-text">PREMIUM AI</span>
+</button>
+
+
+<div
+    id="aiAssistant"
+    class="ai-assistant"
+    aria-hidden="true"
+>
+
+    <div class="ai-assistant-backdrop" id="aiAssistantBackdrop"></div>
+
+
+    <section
+        class="ai-chat-window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="aiAssistantTitle"
+    >
+
+        <!-- HEADER -->
+
+        <header class="ai-chat-header">
+
+            <div class="ai-chat-brand">
+
+                <div class="ai-chat-logo">
+                    ✦
+                </div>
+
+                <div>
+
+                    <span class="ai-chat-eyebrow">
+                        PREMIUM AUTOMOTIVE
+                    </span>
+
+                    <h2 id="aiAssistantTitle">
+                        PREMIUM AI
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <button
+                id="aiAssistantClose"
+                class="ai-chat-close"
+                type="button"
+                aria-label="Close AI Assistant"
+            >
+                ×
+            </button>
+
+        </header>
+
+
+        <!-- MESSAGES -->
+
+        <div
+            id="aiChatMessages"
+            class="ai-chat-messages"
+        >
+
+            <div class="ai-message ai-message-bot">
+
+                <div class="ai-message-label">
+                    PREMIUM AI
+                </div>
+
+                <div class="ai-message-bubble">
+
+                    Welcome to Premium Motors.
+
+                    <br><br>
+
+                    I can help you discover,
+                    compare and choose your
+                    ideal vehicle.
+
+                    <br><br>
+
+                    Ask me anything about
+                    performance, price, brands,
+                    electric vehicles or
+                    specifications.
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK QUESTIONS -->
+
+        <div class="ai-quick-questions">
+
+            <button
+                type="button"
+                class="ai-quick-btn"
+                data-question="Which car is best for performance?"
+            >
+                Best performance
+            </button>
+
+            <button
+                type="button"
+                class="ai-quick-btn"
+                data-question="Which car has the highest horsepower?"
+            >
+                Highest horsepower
+            </button>
+
+            <button
+                type="button"
+                class="ai-quick-btn"
+                data-question="Which electric car should I choose?"
+            >
+                Best EV
+            </button>
+
+            <button
+                type="button"
+                class="ai-quick-btn"
+                data-question="Ferrari vs Lamborghini"
+            >
+                Ferrari vs Lamborghini
+            </button>
+
+        </div>
+
+
+        <!-- INPUT -->
+
+        <form
+            id="aiChatForm"
+            class="ai-chat-input-area"
+        >
+
+            <input
+                type="text"
+                id="aiChatInput"
+                placeholder="Ask anything about cars..."
+                autocomplete="off"
+            >
+
+            <button
+                type="submit"
+                id="aiChatSend"
+                aria-label="Send message"
+            >
+                →
+            </button>
+
+        </form>
+
+    </section>
+
+</div>
+
+<!-- =====================================================
+     PREMIUM AI ASSISTANT
+===================================================== -->
+
+<div
+    id="aiAssistant"
+    class="ai-assistant"
+    aria-hidden="true"
+>
+
+    <div class="ai-assistant-panel">
+
+        <!-- HEADER -->
+
+        <div class="ai-assistant-header">
+
+            <div class="ai-assistant-title">
+
+                <span class="ai-status-dot"></span>
+
+                <div>
+                    <span class="ai-label">PREMIUM AI</span>
+                    <h2>Automotive Assistant</h2>
+                </div>
+
+            </div>
+
+            <button
+                id="aiCloseButton"
+                class="ai-close-button"
+                type="button"
+                aria-label="Close AI Assistant"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- CHAT -->
+
+        <div
+            id="aiChatMessages"
+            class="ai-chat-messages"
+        >
+
+            <div class="ai-message ai-message-bot">
+
+                <div class="ai-message-icon">
+                    ✦
+                </div>
+
+                <div class="ai-message-content">
+
+                    <strong>Premium AI</strong>
+
+                    <p>
+                        Welcome to Premium Motors.
+                        I can help you explore our vehicle
+                        collection, compare specifications,
+                        and find the right car for you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SUGGESTIONS -->
+
+        <div class="ai-suggestions">
+
+            <button
+                type="button"
+                class="ai-suggestion"
+                data-question="Which car has the highest horsepower?"
+            >
+                Highest horsepower
+            </button>
+
+            <button
+                type="button"
+                class="ai-suggestion"
+                data-question="Which car is the fastest?"
+            >
+                Fastest car
+            </button>
+
+            <button
+                type="button"
+                class="ai-suggestion"
+                data-question="Show me electric cars."
+            >
+                Electric cars
+            </button>
+
+            <button
+                type="button"
+                class="ai-suggestion"
+                data-question="Which car is the cheapest?"
+            >
+                Best price
+            </button>
+
+        </div>
+
+
+        <!-- INPUT -->
+
+        <div class="ai-input-area">
+
+            <input
+                type="text"
+                id="aiUserInput"
+                placeholder="Ask about our cars..."
+                autocomplete="off"
+            >
+
+            <button
+                id="aiSendButton"
+                type="button"
+                aria-label="Send message"
+            >
+                →
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     CONTACT SECTION
+     ===================================================== -->
+
+<section
+    class="contact-section"
+    id="contact"
+>
+
+    <div class="container">
+
+        <div class="contact-content">
+
+            <div>
+
+                <span class="section-eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <h2>
+                    Let's Talk
+                    <span>Automotive.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="contact-info">
+
+                <p>
+                    Questions about our collection,
+                    comparisons or vehicle configuration?
+                </p>
+
+                <a
+                    href="mailto:shivamdeepakjadhav@gmail.comZ"
+                    class="contact-email"
+                >
+
+                    CONTACT US
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================================
+     PREMIUM MOTORS FOOTER
+     ===================================================== -->
+
+<footer class="premium-footer">
+
+    <div class="premium-footer-main">
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <a
+                href="#top"
+                class="footer-logo"
+            >
+
+                <span class="footer-logo-main">
+                    PREMIUM
+                </span>
+
+                <span class="footer-logo-sub">
+                    MOTORS
+                </span>
+
+            </a>
+
+            <p class="footer-tagline">
+
+                Where performance
+                meets luxury.
+
+            </p>
+
+            <p class="footer-description">
+
+                Explore extraordinary automobiles,
+                compare legendary machines and
+                experience the world of premium
+                automotive engineering.
+
+            </p>
+
+        </div>
+
+
+        <!-- EXPLORE -->
+
+        <div class="footer-column">
+
+            <h3>
+                EXPLORE
+            </h3>
+
+            <a href="#cars">
+                CARS
+            </a>
+
+            <a href="#brands">
+                BRANDS
+            </a>
+
+            <a href="#experience">
+                EXPERIENCE
+            </a>
+
+            <a href="#showroom">
+                SHOWROOM
+            </a>
+
+        </div>
+
+
+        <!-- SERVICES -->
+
+        <div class="footer-column">
+
+            <h3>
+                SERVICES
+            </h3>
+
+            <a href="#cars">
+                CAR COLLECTION
+            </a>
+
+            <a href="#cars">
+                COMPARE CARS
+            </a>
+
+            <a href="#cars">
+                FAVORITES
+            </a>
+
+            <a href="#showroom">
+                CONFIGURATOR
+            </a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-column footer-contact">
+
+            <h3>
+                CONTACT US
+            </h3>
+
+            <p>
+                Have a question about a vehicle,
+                feature or our showroom?
+            </p>
+
+            <a
+                href="#contact"
+                class="footer-contact-button"
+            >
+
+                GET IN TOUCH
+
+                <i class="bi bi-arrow-up-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="premium-footer-bottom">
+
+        <span>
+            © 2026 PREMIUM MOTORS
+        </span>
+
+        <span>
+            PREMIUM AUTOMOTIVE EXPERIENCE
+        </span>
+
+        <a href="#top">
+            BACK TO TOP
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+    </div>
+
+</footer>
+
+<!-- =====================================================
+     BOOTSTRAP
+     ===================================================== -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<!-- =====================================================
+     MAIN JAVASCRIPT
+     ===================================================== -->
+
+<script src="../js/script.js"></script>
+ 
+
+</body>
+
+</html>
