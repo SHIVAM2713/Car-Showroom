@@ -15,7 +15,6 @@ Built entirely with **HTML, CSS, JavaScript and Bootstrap** — no backend requi
 
 **👉 [View the live website](https://shivam2713.github.io/Car-Showroom/)**
 
-> Replace `YOUR-USERNAME` and `car-showroom` with your GitHub username and repository name.
 
 ## 📸 Screenshots
 
@@ -27,7 +26,7 @@ Built entirely with **HTML, CSS, JavaScript and Bootstrap** — no backend requi
 |---|---|
 | ![Showroom](screenshots/showroom.png) | ![Comparison](screenshots/comparison.png) |
 
-> Add your screenshots to a `screenshots/` folder in the repository using the file names above.
+
 
 ## ✨ Features
 
